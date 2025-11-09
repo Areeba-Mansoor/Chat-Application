@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatDong</title>
+    <link rel="stylesheet" href="chat.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- font owesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+
+<body>
+    <div class="user-content">
+        <!-- left side -->
+        <div class="top-section">
+            <h1>Let Your Words Fly with <span>ChatDong</span></h1>
+            <p>Connect instantly. Chat endlessly.<br>
+                Because great conversations start here.</p>
+            <button class="start-btn">Start Chatting</button>
+        </div>
+
+
+        <!-- Right side -->
+        <div class="bottom-section">
+            <div class="user-container" data-aos="zoom-out-down">
+                <h1>Enter a Username</h1>
+
+                <div class="user-name">
+                    <input type="text" name="" id="username" placeholder="Enter Your Usrname" />
+                </div>
+
+                <div class="userbtn-box">
+                    <button class="btn" onclick="enterChat()">OK</button>
+                    <button class="userBtn">
+                        <a href="./sigup.html" >Back</a>
+                    </button>
+                </div>
+
+                <p>This nmae will appear to others in the chat</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+    <script type="module" src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1200,
+        });
+    </script>
+</body>
+
+</html>

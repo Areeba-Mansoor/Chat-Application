@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatDong App</title>
+    <!-- CSS Style Sheet Link -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- Aos animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- font owesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+
+</head>
+
+<body>
+    <div class="chat-container">
+        <!-- chat content left side -->
+
+        <div class="chat-content-left"> 
+            <div class="chat-content">
+                <h1>ChatDong</h1>
+                <hr size="2" width="100" style="margin-left: 220px; margin-top: -5px;"/>
+                <h4>Connect Beyond Boundaries</h4>
+                <p>
+                    Experience sameless communication with our next-generation chat
+                    platform. Beautiful dedign meets powerful funtionally.
+                </p>
+                <div class="content-btn">
+                    <button class="content-btn try-btn">
+                        <a href="./trydemo.html">Try Demo</a>
+                        <img src="./assets/images/right-arrow.png" width="18px" height="20px" alt="" />
+                    </button>
+                    <button onclick="gteStart()" class="content-btn get-btn">
+                        <a href="./sigup.html">Get Started</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- chat content right side -->
+        <div class="chat-content-right">
+            <div class="background-image">
+                <img src="./assets/images/background.png" alt="" />
+                <div class="form-container"  >
+                    <div class="form">
+                        <div class="form-head">
+                            <div class="profiles">
+                                <img src="./assets/images/profile-img.jpg" alt="" />
+                                <div class="online-icon">
+                                    <img src="./assets/images/online-icon.png" alt="" />
+                                   
+                                </div>
+                                <p>John Dev <br>
+                                    <span>online</span>
+                                </p>
+                            </div>
+
+                            <div class="profile-seeting">
+                                <img src="./assets/images/menu.png" alt=" "/>
+                            </div>
+                        </div>
+                        <div class="form-main-content">
+                            <form action="#">
+                                <input type="text" class="rec-chats" placeholder="Welcome to ChatDong! 👋" />
+                                <br />
+                                <input type="text" class="send-chat" placeholder="This looks amazing!" />
+                                <br />
+                                <input type="text" class="rec-chats"
+                                    placeholder="Try the ChatDong to explore features ✨"
+                                    style="width: 90%; margin-top: 20px" />
+                            </form>
+                        </div>
+
+                        <div class="chat-footer">
+                            <input type="text" placeholder="Type a message..." />
+                            <img src="./assets/images/send (1).png" alt=" send" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+       <!-- Aos  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+             offset: 400,
+             duration: 1000
+        });
+    </script>
+</body>
+
+</html>
