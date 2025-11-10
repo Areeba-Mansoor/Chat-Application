@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+/*body  */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #b4d6e0;
+}
+
+/* container */
+.Container {
+  width: 900px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  background: #bc6b6b;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(33, 34, 34, 0.6);
+  border: none;
+  transition: all 0.5s ease;
+  animation: popOut 2.2s ease-out forwards;
+  background: linear-gradient(#b298d8, #d8a798);
+  transform-origin: center;
+}
+
+/*Features Section */
+.chat-name {
+  width: 100%;
+  padding: 20px 40px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.features {
+  width: 750px;
+  padding: 10px;
+  margin-bottom: 150px;
+}
+
+.features p {
+  color: #fafafa;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 12px;
+  line-height: 2;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: transparent;
+  margin-bottom: 50px;
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+.btn:hover{
+    transform: translateY(-5px);
+}
+.btn a:hover {
+  text-decoration: underline;
+  color: red;
+}
