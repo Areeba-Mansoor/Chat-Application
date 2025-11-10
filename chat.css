@@ -465,7 +465,8 @@ form {
 @media (max-width: 486px) {
   .user-content {
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    margin-top: 15px;
   }
   .user-container {
     min-width: 340px;

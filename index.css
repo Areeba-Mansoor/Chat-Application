@@ -395,10 +395,9 @@ body {
   .chat-content-right {
     width: 100%;
   }
-  .chat-content-right {
-    width: 100%;
-  }
+
   .form-container {
-    min-width: 320px;
-  }
+    width: 300px;
+    right: 0;
+}
 }
