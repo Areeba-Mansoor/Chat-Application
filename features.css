@@ -78,7 +78,6 @@ body {
 @media (max-width: 1024px) {
   .Container {
     width: 800px;
-    width: 100%;
   }
   .features {
     width: 700px;
@@ -92,7 +91,6 @@ body {
 
   .features {
     max-width: 550px;
-    background-color: rebeccapurple;
   }
 }
 @media (max-width:680px) {

@@ -95,7 +95,7 @@ body {
 
 /* Messages Area */
 .messages-area {
-    background-image: url(./assets/images/background-girl.png);
+    background-image: url(./assets/images/background-gir.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 680px;
@@ -108,9 +108,9 @@ body {
     gap: 12px;
     margin-bottom: 12px;
     border-radius: 10px;
-    background-color: #e0f5fa;
+    background-color: #c3dfe6;
     cursor: pointer;
-    box-shadow: 0 0 10px rgba(121, 121, 121, 0.4);
+    box-shadow: 0 0 20px rgba(121, 121, 121, 0.8);
 }
 
 /* Typing area (fixed bottom) */
@@ -193,7 +193,7 @@ body {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background: #da8282;
+    background: #f09758;
     color: #fff;
     display: flex;
     align-items: center;
